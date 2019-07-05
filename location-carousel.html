@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Location Carousel</title>
+    <link rel="stylesheet" href="./assets/styles/foundation.css"/>
+    <link rel="stylesheet" href="./assets/styles/app.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+            <header class="header_location header">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-12 d-flex align-items-center">
+                    <div class="header__logo"><a href="index.html"><img src="assets/img/logo/logo.svg" alt="Azur logo"/></a></div>
+                    <nav class="header__nav ml-auto">
+                      <ul class="header__nav-list d-flex">
+                        <li class="header__nav-item header__nav-item_active text-uppercase"><a href="#">home</a></li>
+                        <li class="header__nav-item header__nav-item_hover text-uppercase"><a href="#">rent</a>
+                          <div class="header__sub-nav">
+                            <div class="header__sub-nav-wrapp">
+                              <ul class="header__sub-nav-list d-flex justify-content-center">
+                                <li class="header__sub-nav-item header__sub-nav-item_vill linear-bg">
+                                  <div class="header__sub-nav-item-img" style="background-image:url('assets/img/contents/nice.jpg');"></div><a class="text-center" href="#">
+                                    <div class="header__sub-nav-item-icon"></div>
+                                    <p class="text-uppercase">VILLAS</p>
+                                    <p><span>- </span><span>15 </span><span>- </span></p></a>
+                                </li>
+                                <li class="header__sub-nav-item header__sub-nav-item_app linear-bg">
+                                  <div class="header__sub-nav-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <div class="header__sub-nav-item-icon"></div>
+                                    <p class="text-uppercase">APARTMENTS</p>
+                                    <p><span>- </span><span>12 </span><span>- </span></p></a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="header__sub-type header__sub-type_vill">
+                              <ul class="header__sub-type-list d-flex flex-wrap">
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/nice-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">nice</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/monaco.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">moncao</p>
+                                    <p><span>- </span><span>5</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">st.tropez</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">cannes</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">antibes</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">valbone</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">
+                                       SAINT - JEAN<br/>CAP - FERRAT</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="header__sub-type header__sub-type_app">
+                              <ul class="header__sub-type-list d-flex flex-wrap">
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/nice-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">nice</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/monaco.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">moncao</p>
+                                    <p><span>- </span><span>5</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">st.tropez</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">cannes</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                                <li class="header__sub-type-item linear-bg">
+                                  <div class="header__sub-type-item-img" style="background-image:url('assets/img/contents/room-2.jpg');"></div><a class="text-center" href="#">
+                                    <p class="text-uppercase">antibes</p>
+                                    <p><span>- </span><span>3</span><span> -</span></p></a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="header__nav-item text-uppercase"><a href="#">buy</a></li>
+                        <li class="header__nav-item text-uppercase"><a href="#">CONCIERGE SERVICES</a></li>
+                        <li class="header__nav-item text-uppercase"><a href="team.html">our team</a></li>
+                        <li class="header__nav-item text-uppercase"><a href="#">contact</a></li>
+                      </ul>
+                    </nav>
+                    <div class="header__lang">
+                      <p>ENG</p>
+                    </div>
+                    <div class="header__fav">
+                      <div class="header__fav-icon"><a href="#"></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+      <main class="main" role="main">
+        <section class="location-head">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 d-flex align-items-center">
+                <div class="location-head__title">
+                  <div class="location-head__text-cover text-cover text-uppercase">
+                    <p>nice</p>
+                  </div>
+                  <div class="location-head__title-text title text-uppercase">
+                    <h2>NICE</h2>
+                  </div>
+                </div>
+                <div class="location-head__type type d-flex">
+                  <div class="location-head__type-col type__col d-flex">
+                    <div class="type__item">
+                      <label class="type__label">
+                        <input type="radio" name="nicehouseType" checked="checked"/>
+                        <div class="type__item-wrapp">
+                          <div class="type__icon-wrapp">
+                            <div class="type__icon type__icon_vill"></div>
+                            <div class="type__icon-text">
+                              <p>Villas</p>
+                            </div>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="type__item">
+                      <label class="type__label">
+                        <input type="radio" name="nicehouseType"/>
+                        <div class="type__item-wrapp">
+                          <div class="type__icon-wrapp">
+                            <div class="type__icon type__icon_app"></div>
+                            <div class="type__icon-text">
+                              <p>Apartments</p>
+                            </div>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="location-head__type-col location-head__type-col_margin type__col d-flex">
+                    <div class="type__item">
+                      <label class="type__label">
+                        <input type="radio" name="nicerentType" checked="checked"/>
+                        <div class="type__item-wrapp">
+                          <div class="type__icon-wrapp">
+                            <div class="type__icon type__icon_rent"></div>
+                            <div class="type__icon-text">
+                              <p>Rent</p>
+                            </div>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="type__item">
+                      <label class="type__label">
+                        <input type="radio" name="nicerentType"/>
+                        <div class="type__item-wrapp">
+                          <div class="type__icon-wrapp">
+                            <div class="type__icon type__icon_buy"></div>
+                            <div class="type__icon-text">
+                              <p>Buy</p>
+                            </div>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="location-head__type-col type__col ml-auto d-flex">
+                    <div class="type__item"><a class="type__link type__link_blocks" href="location-crousel.html">
+                        <div class="type__item-wrapp">
+                          <div class="type__icon-wrapp">
+                            <div class="type__icon-text text-center">
+                              <p>View<br/>carousel</p>
+                            </div>
+                          </div>
+                        </div></a></div>
+                    <div class="type__item"><a class="type__link type__link_search" href="locations.html">
+                        <div class="type__item-wrapp">
+                          <div class="type__icon-wrapp">
+                            <div class="type__icon-text text-center">
+                              <p>View all<br/>locations</p>
+                            </div>
+                          </div>
+                        </div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="location-carousel">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 location-carousel__col">
+                <div class="location-carousel__left">
+                  <div class="location-carousel__left-slider">
+                    <div class="location-carousel__left-slider-item">
+                      <div class="location-carousel__left-slider-item-wrapp">
+                        <div class="location__save"><a href="#"></a></div><a class="location-carousel__left-slider-item-link" href="#">
+                          <div class="location-carousel__left-head">
+                            <div class="location-carousel__img"><img src="assets/img/contents/villa.jpg" alt="Image"/></div>
+                            <div class="location__label">
+                              <div class="location__label-sale text-uppercase">
+                                <p>for sale</p>
+                              </div>
+                            </div>
+                            <div class="location__price">
+                              <p>Starts from</p>
+                              <p><span class="price__start">7000€  </span><span>- </span><span class="price__end">15.000€ </span>/ week</p>
+                            </div>
+                          </div></a>
+                      </div>
+                    </div>
+                    <div class="location-carousel__left-slider-item">
+                      <div class="location-carousel__left-slider-item-wrapp">
+                        <div class="location__save"><a href="#"></a></div><a class="location-carousel__left-slider-item-link" href="#">
+                          <div class="location-carousel__left-head">
+                            <div class="location-carousel__img"><img src="assets/img/contents/villa.jpg" alt="Image"/></div>
+                            <div class="location__label">
+                              <div class="location__label-sale text-uppercase">
+                                <p>for sale</p>
+                              </div>
+                            </div>
+                            <div class="location__price">
+                              <p>Starts from</p>
+                              <p><span class="price__start">7000€  </span><span>- </span><span class="price__end">15.000€ </span>/ week</p>
+                            </div>
+                          </div></a>
+                      </div>
+                    </div>
+                    <div class="location-carousel__left-slider-item">
+                      <div class="location-carousel__left-slider-item-wrapp">
+                        <div class="location__save"><a href="#"></a></div><a class="location-carousel__left-slider-item-link" href="#">
+                          <div class="location-carousel__left-head">
+                            <div class="location-carousel__img"><img src="assets/img/contents/villa.jpg" alt="Image"/></div>
+                            <div class="location__label">
+                              <div class="location__label-sale text-uppercase">
+                                <p>for sale</p>
+                              </div>
+                            </div>
+                            <div class="location__price">
+                              <p>Starts from</p>
+                              <p><span class="price__start">7000€  </span><span>- </span><span class="price__end">15.000€ </span>/ week</p>
+                            </div>
+                          </div></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="location-carousel__left-control">
+                    <div class="location-carousel__left-dots"></div>
+                    <div class="location-carousel__left-arrows"></div>
+                  </div>
+                </div>
+                <div class="location-carousel__right">
+                  <div class="location-carousel__right-slider">
+                    <div class="location-carousel__right-slider-item">
+                      <div class="location-carousel__right-slider-item-title">
+                        <h3>Canoubier Bay 1</h3>
+                      </div>
+                      <div class="location-carousel__right-slider-item-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="location-carousel__right-slider-item-info">
+                        <div class="location-carousel__right-slider-item-info-row d-flex">
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>Living Area</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>900 sqm</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>bedrooms</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>11</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>baths</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>04</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>guests</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>24</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="location-carousel__right-slider-item-info-row d-flex">
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>Plot of land</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>90.000 sqm</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>pool</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>01</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>spa</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>01</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>high security</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>24/7</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="location-carousel__right-slider-item-link">
+                        <div class="link"><a href="#">View more details →</a></div>
+                      </div>
+                    </div>
+                    <div class="location-carousel__right-slider-item">
+                      <div class="location-carousel__right-slider-item-title">
+                        <h3>Another text</h3>
+                      </div>
+                      <div class="location-carousel__right-slider-item-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+                      </div>
+                      <div class="location-carousel__right-slider-item-info">
+                        <div class="location-carousel__right-slider-item-info-row d-flex">
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>Living Area</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>500 sqm</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>bedrooms</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>6</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>baths</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>01</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>guests</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>13</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="location-carousel__right-slider-item-info-row d-flex">
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>Plot of land</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>90.000 sqm</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>pool</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>04</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>spa</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>09</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>high security</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>24/7</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="location-carousel__right-slider-item-link">
+                        <div class="link"><a href="#">View more details →</a></div>
+                      </div>
+                    </div>
+                    <div class="location-carousel__right-slider-item">
+                      <div class="location-carousel__right-slider-item-title">
+                        <h3>Canoubier Bay 3</h3>
+                      </div>
+                      <div class="location-carousel__right-slider-item-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="location-carousel__right-slider-item-info">
+                        <div class="location-carousel__right-slider-item-info-row d-flex">
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>Living Area</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>900 sqm</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>bedrooms</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>11</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>baths</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>04</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>guests</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>24</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="location-carousel__right-slider-item-info-row d-flex">
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>Plot of land</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>90.000 sqm</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>pool</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>01</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>spa</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>01</p>
+                            </div>
+                          </div>
+                          <div class="location-carousel__right-slider-item-info-item">
+                            <div class="location-carousel__right-slider-item-info-item-head text-uppercase">
+                              <p>high security</p>
+                            </div>
+                            <div class="location-carousel__right-slider-item-info-item-content">
+                              <p>24/7</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="location-carousel__right-slider-item-link">
+                        <div class="link"><a href="#">View more details →</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
